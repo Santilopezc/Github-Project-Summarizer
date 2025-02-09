@@ -7,7 +7,7 @@ A Streamlit application that automatically summarizes GitHub repositories using 
 - Fetches repositories from a given GitHub username
 - Extracts and processes README files
 - Generates concise summaries using LLMs to put in your CV
-- Exports summaries in LaTeX in a txt file
+- Exports LaTeX summaries in a txt file
 
 ## Requirements
 
