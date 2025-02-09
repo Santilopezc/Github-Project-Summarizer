@@ -1,11 +1,12 @@
 from src.scraper import get_repos, get_readme_url, scrape_readme
 from src.summarizer import process_github_projects
 import streamlit as st
-
+from dotenv import load_dotenv
+import os
+load_dotenv()
 
 # GitHub token (optional)
-TOKEN = ""
-
+TOKEN = os.getenv("GITHUB_ACCESS_TOKEN")
 
 def main():
     st.title("GitHub Project Summarizer")
